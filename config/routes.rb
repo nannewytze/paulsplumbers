@@ -6,6 +6,9 @@ Rails.application.routes.draw do
   # get "problem/:id" => "problem#show"
 
   resources :problems
+<<<<<<< HEAD
   
+=======
+>>>>>>> plumbers
   resources :plumbers
 end

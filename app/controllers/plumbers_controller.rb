@@ -3,6 +3,6 @@ class PlumbersController < ApplicationController
     @plumbers = Plumber.all
   end
   def show
-      @plumber = Plumber.find(params[:id])
+    @plumber = Plumber.find(params[:id])
   end
 end
