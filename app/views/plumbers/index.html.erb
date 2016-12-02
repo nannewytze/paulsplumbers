@@ -1,0 +1,7 @@
+
+<h1>Plumbers</h1>
+
+<% @plumbers.each do |plumber| %>
+  <p><%= plumber.name %></p>
+  <p><%= image_tag plumber.image_url %></p>
+<% end %>
