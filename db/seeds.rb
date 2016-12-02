@@ -1,7 +1,10 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+plumber1 = Plumber.create( { name: "Tom", specialty: "bathrooms", image_url: "http://www.quailplumbing.com/wp-content/uploads/2015/02/1920-plumber-1140x760.jpg" } )
+plumber2 = Plumber.create( { name: "Joe", specialty: "toilets", image_url: "http://www.quailplumbing.com/wp-content/uploads/2015/02/1920-plumber-1140x760.jpg" } )
+plumber3 = Plumber.create( { name: "Jack", specialty: "roof", image_url: "http://www.quailplumbing.com/wp-content/uploads/2015/02/1920-plumber-1140x760.jpg" } )
+plumber4 = Plumber.create( { name: "Allan", specialty: "kitchen", image_url: "http://www.quailplumbing.com/wp-content/uploads/2015/02/1920-plumber-1140x760.jpg" } )
+plumber5 = Plumber.create( { name: "Hank", specialty: "sink", image_url: "http://www.quailplumbing.com/wp-content/uploads/2015/02/1920-plumber-1140x760.jpg" } )
+plumber6 = Plumber.create( { name: "Peter", specialty: "shower", image_url: "http://www.quailplumbing.com/wp-content/uploads/2015/02/1920-plumber-1140x760.jpg" } )
+plumber7 = Plumber.create( { name: "John", specialty: "pipes", image_url: "http://www.quailplumbing.com/wp-content/uploads/2015/02/1920-plumber-1140x760.jpg" } )
+plumber8 = Plumber.create( { name: "Andy", specialty: "toiletseat", image_url: "http://www.quailplumbing.com/wp-content/uploads/2015/02/1920-plumber-1140x760.jpg" } )
+plumber9 = Plumber.create( { name: "Tommie", specialty: "buttcracks", image_url: "http://www.quailplumbing.com/wp-content/uploads/2015/02/1920-plumber-1140x760.jpg" } )
+plumber10 = Plumber.create( { name: "Buzz", specialty: "tiles", image_url: "http://www.quailplumbing.com/wp-content/uploads/2015/02/1920-plumber-1140x760.jpg" } )
