@@ -6,4 +6,5 @@ Rails.application.routes.draw do
   # get "problem/:id" => "problem#show"
 
   resources :problems
+  resources :plumbers
 end
