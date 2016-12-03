@@ -1,6 +1,3 @@
-a {
-    text-decoration: none;
-    }
 
 .problems-banner {
   font-family: 'Bungee', sans-serif;
@@ -36,11 +33,16 @@ body {
   font-family: 'Montserrat', sans-serif;
   line-height: 1.6;
   font-size: 14px;
-  color: #515151
+  color: #515151;
 }
 
 .problem-button{
-  background-color:#295293;
+  text-align: center;
+  color: #515151;
+  border-style: solid;
+  background-color: #343533;
+  border-radius: 5px;
   font-family: 'Montserrat'
 }
+
 /*dit is de nieuwe versie*/
