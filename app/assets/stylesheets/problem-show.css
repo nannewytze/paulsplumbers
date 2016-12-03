@@ -3,12 +3,46 @@ body{
   background-color: grey;
   display: block;
 }
-div{
-  font-family: 'Bungee';
+
+.Problem-banner-show {
+  color:white;
+background-color: #343533;
+text-align: center;
+
 }
 
-.problem-page-image {
-  height: 150px;
-  width: 600px;
-  display: inline;
+div{
+  font-family: 'Bungee';
+  display: block;
+}
+
+.problem-page-image img{
+  display: block;
+    margin: 0 auto;
+  width: 50em;
+border-style: groove;
+border: 10px solid #656864;
+border-radius: 10px;
+}
+
+.problem-description-box {
+  text-align: center;
+  color:white;
+background-color: #343533;
+margin:-1px;
+}
+
+.plumber-box-show {
+  text-align: center;
+  color:white;
+background-color: #656864;
+margin: auto;
+}
+
+.plumber-problem-image img{
+  text-align: center;
+ width: 15em;
+ border-style: hidden;
+ border-radius: 100%;
+
 }
