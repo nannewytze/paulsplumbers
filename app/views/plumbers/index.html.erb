@@ -4,3 +4,18 @@
   <p><%= plumber.name %></p>
   <p><%= image_tag plumber.image_url %></p>
 <% end %>
+
+<section class="problems-banner">
+  <p>Banner will go here.</p>
+</section>
+
+<div class="problems-gallery">
+  <% @plumbers.each do |plumber| %>
+  <div class="plumber-card">
+  <p class= "plumber-image"><%= plumber.name %></p>
+  <p><%= image_tag plumber.image_url %></p>
+
+  <p class="plumber-button"> <%= link_to "see details of this plumber", problem_path(problem.id) %></p>
+  </div>
+<% end %>
+</div>
