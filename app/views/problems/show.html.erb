@@ -1,3 +1,6 @@
+<head>
+</head>
+<body>
 <div class="Problem-banner-show">
   <h1><%= @problem.name %></h1>
 </div>
@@ -14,6 +17,7 @@
   <p>Plumber for your problem:</p>
   <% @problem.plumbers.each do | plumber| %>
     <p><%= plumber.name %></p>
-    <p><%= image_tag plumber.image_url %></p>
+    <p class="plumber-problem-image"><%= image_tag plumber.image_url %></p>
   <%end%>
 </div>
+</body>
