@@ -71,3 +71,11 @@
     color: darkgrey;
     background-color: white;
 }
+
+p {
+  color: white
+}
+
+body {
+      background-color: grey;
+}
