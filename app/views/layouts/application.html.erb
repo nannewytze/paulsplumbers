@@ -11,6 +11,18 @@
   </head>
 
   <body>
+    <header>
+      <dev class="nav-bar-total">
+        <a class="top-title-webpage"> Pauls Plumbers </a>
+        <a class="nav-bar"> <%= link_to "See all problems", problems_path %></a>
+        <a class="nav-bar"> <%= link_to "See all plumbers", plumbers_path %></a>
+      </dev>
+    </header>
+
     <%= yield %>
+
+    <footer> <p class="copyright"> &copy The content of the website is copyright protected All rights reserverd
+    </p></footer>
+
   </body>
 </html>

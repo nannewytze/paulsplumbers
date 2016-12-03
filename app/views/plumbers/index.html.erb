@@ -1,18 +1,11 @@
-<h1>Pauls Plumbers</h1>
-
-  <dev>
-    <h2>What to know more about the problems we solve?</h2>
-    <p class="nav-bar"> <%= link_to "problems", problems_path %></p>
-  </dev>
 
   <div class="plumbers-banner">
-    <p>Banner will go here.</p>
   </div>
 
   <div class="plumbers-gallery">
     <% @plumbers.each do |plumber| %>
     <div class="plumber-card">
-    <p class= "plumber-image"><%= plumber.name %></p>
+    <h1 class= "plumber-image"><%= plumber.name %></h1>
     <p><%= image_tag plumber.image_url %></p>
 
     <p class="plumber-button"> <%= link_to "see details of this plumber", plumber_path(plumber.id) %></p>
