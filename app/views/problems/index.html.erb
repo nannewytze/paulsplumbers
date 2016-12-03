@@ -8,7 +8,7 @@
   <p><%= problem.name %></p>
   <p class= "problem-image"><%= image_tag problem.image_url %></p>
 
-  <p class="problem-button"> <%= link_to "info about this problem", problem_path(problem.id) %></p>
+  <a class="problem-button"> <%= link_to "About this problem", problem_path(problem.id) %></a>
   </div>
 <% end %>
 </div>
