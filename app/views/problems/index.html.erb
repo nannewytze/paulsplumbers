@@ -1,7 +1,14 @@
-<h1>Problems</h1>
+<section class="problems-banner">
+  <p>Banner will go here.</p>
+</section>
 
-<% @problems.each do |problem| %>
-  <p><%= problem.name %></p>
+<div class="problems-gallery">
+  <% @problems.each do |problem| %>
+  <div class="problem-card">
+  <p class= "problem-image"><%= problem.name %></p>
   <p><%= image_tag problem.image_url %></p>
-  <p><%= link_to "info about this problem", problem_path(problem.id) %></p>
+  
+  <p class="problem-button"> <%= link_to "info about this problem", problem_path(problem.id) %></p>
+  </div>
 <% end %>
+</div>
