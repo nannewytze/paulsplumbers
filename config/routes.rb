@@ -5,7 +5,7 @@ Rails.application.routes.draw do
    # get "problems" => "problems#index"
    # get "problem/:id" => "problem#show"
 
-   root "plumbers#show"
-   get "plumbers" => "plumbers#index"
-   resources :problems
- end
+  root "plumbers#show"
+  resources :problems
+  resources :plumbers
+end
