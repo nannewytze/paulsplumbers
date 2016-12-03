@@ -1,0 +1,42 @@
+a {
+    text-decoration: none;
+    }
+
+.problems-banner {
+  font-family: 'Bungee', sans-serif;
+  line-height: 1.6;
+  font-size: 14px;
+
+  text-align: center;
+}
+
+.problems-gallery{
+  padding: 10px, 10px, 10px, 10px;
+}
+
+.problem-card{
+  position: relative;
+  top: 10px;
+  left: 100px;
+  max-width: 340px;
+  margin-bottom: 100px;
+  padding: 10px;
+  background-color: #d4ddf7;
+  }
+
+.problem-image img{
+  width: 100px;
+  height: 100px;
+  margin: 20px 20px 20px 20px;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.6;
+  font-size: 14px;
+  color: #515151
+}
+
+.problem-button{
+  background-color:#0543ff;
+}
