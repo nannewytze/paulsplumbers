@@ -1,11 +1,19 @@
-<div>
+<div class="Problem-banner-show">
   <h1><%= @problem.name %></h1>
 </div>
 
-<div>
+<div class="problem-page-image">
   <%= image_tag @problem.image_url %>
 </div>
 
-<div>
+<div class="problem-description-box">
   <p>Description: <%= @problem.description %></p>
+</div>
+
+<div class="plumber-box-show">
+  <p>Plumber for your problem:</p>
+  <% @problem.plumbers.each do | plumber| %>
+    <p><%= plumber.name %></p>
+    <p><%= image_tag plumber.image_url %></p>
+  <%end%>
 </div>
