@@ -35,14 +35,14 @@ margin:-1px;
 .plumber-box-show {
   text-align: center;
   color:white;
-background-color: #656864;
-margin: auto;
+  background-color: #656864;
+  margin: auto;
 }
 
 .plumber-problem-image img{
   text-align: center;
- width: 15em;
- border-style: hidden;
- border-radius: 100%;
+   width: 15em;
+   border-style: hidden;
+   border-radius: 100%;
 
 }
